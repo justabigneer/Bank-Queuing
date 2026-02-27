@@ -1,0 +1,28 @@
+# Bank Queue Simulator — Dependencies
+# ─────────────────────────────────────
+# This project uses only Python standard library modules:
+#   tkinter   — GUI framework (built into CPython)
+#   random    — random number generation
+#   math      — math utilities
+#   collections (deque) — efficient queue data structure
+#
+# NO third-party packages are required.
+#
+# ── Python version ───────────────────
+# python>=3.9
+#
+# ── Installing tkinter (if missing) ──
+# Ubuntu / Debian:
+#   sudo apt-get install python3-tk
+#
+# macOS (Homebrew):
+#   brew install python-tk
+#
+# Windows:
+#   Tkinter ships with the official python.org installer.
+#   Re-run the installer and ensure "tcl/tk and IDLE" is checked.
+#
+# ── Optional: create a virtual environment ───
+#   python -m venv .venv
+#   source .venv/bin/activate   # Windows: .venv\Scripts\activate
+#   python bank_queue_sim.py
